@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Verdana, "Geneva", Tahoma, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.footer {
+    font-size: 10px;
+}
+
+.wrapper {
+    box-shadow: -5px 5px 5px 1px darkgray;
+    border-radius: 25px;
+}
+
+/* DISPLAY */
+.d-flex {
+    display: flex;
+}
+
+.d-flexbox {
+    display: flexbox;
+}
+
+.d-grid {
+    display: grid;
+}
+
+/* TEXT ALIGN */
+.text-align-center {
+    text-align: center;
+}
+/* FLEX DIRECTION */
+.flex-column {
+    flex-direction: column;
+}
+
+/* ALIGN ITEMS */
+.align-items-center {
+    align-items: center;
+}
+
+/* JUSTIFY CONTENT */
+.justify-content-center {
+    justify-content: center;
+}
+
+/* MARGIN */
+
+/* PADDING */
+.pad-xs {
+    padding: 1em;
+}
+
+.pad-s {
+    padding: 1.5em;
+}
+
+.pad-m {
+    padding: 2em;
+}
+
+.pad-l {
+    padding: 2.5em;
+}
+
+.pad-xl {
+    padding: 3em;
+}
+
+.pad-2xl {
+    padding: 5em;
+}
