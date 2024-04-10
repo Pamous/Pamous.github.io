@@ -4,8 +4,6 @@
     "theme_color": "#FFFFFF",
     "background_color": "linear-gradient(-45deg, #00FFF0, #00F2E3, #0075FF, #FF004D, #FFC700)",
     "display": "fullscreen",
-    // "Scope": "/",
-    // "start_url": "/",
     "icons": [
       {
         "src": "../svg/logo/linear_logo_inverse_2.svg",
