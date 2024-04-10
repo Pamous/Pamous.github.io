@@ -23,21 +23,11 @@
         <link rel="manifest" href="bootstrap/resources/manifest.json">
 
         <!-- PWA ASSETS FOR IOS -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="white">
-        <meta name="apple-mobile-web-app-title" content="Pamous">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="72x72">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="96x96">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="128x128">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="144x144">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="152x152">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="192x192">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="384x384">
-        <link rel="apple-touch-icon" href="bootstrap/svg/logo/linear_logo_inverse_2.svg" sizes="512x512">
+        <?php include_once "bootstrap/resources/assets/apple.manifest.php"?>
 
         <!-- PWA ASSETS FOR WIN -->
-        <meta name="msapplication-TileImage" content="bootstrap/svg/logo/linear_logo_inverse_2.svg">
-        <meta name="msapplication-TileColor" content="white">
+        <?php include_once "bootstrap/resources/assets/win.manifest.php"?>
+        
     </head>
     <body>
         <div class="container d-flex pad-2xl justify-content-center">
@@ -56,4 +46,5 @@
             <p class="corp">&#169;2024 NEXT ERA</p>
         </div>
     </body>
+    <script src="bootstrap/resources/assets/js/manifest.js"></script>
 </html>
